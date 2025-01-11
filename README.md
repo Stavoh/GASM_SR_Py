@@ -7,5 +7,3 @@ Python will be used to construct a de Bruijn graph and find its Eulerian cycle t
 1. DNA sequencing data in the form of a FASTQ file will be used as an input.  
 2. The most probable sequence will be computed by the program.  
 3. The predicted sequence will be given in the form of a text file as an output.  
-## Background
-To be continued
