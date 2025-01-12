@@ -21,13 +21,13 @@ The problem of genome assembly can be compared to taking many copies of a book, 
 
 There are two main types of genome assembly, from which we are implementing the first (de novo assembly):
 
-**1. De Novo Assembly:**--
+**1. De Novo Assembly:**__
 De novo assembly is the process of assembling a genome without a reference genome. It involves piecing together short DNA reads into longer contigs, which are then further assembled into scaffolds. This approach is used when a reference genome is unavailable or when studying novel organisms. This approach is implemented by this tool.
 
 - **Tools**: Velvet, SPAdes, ABySS, SOAPdenovo
 - **Challenges**: Complexity increases with genome size, repeat sequences, and the quality of the reads.
 
-**2. Reference-Based Assembly:**--
+**2. Reference-Based Assembly:**__
 In reference-based assembly, short reads are mapped to an existing reference genome. This approach is used when a closely related genome is available, making it faster and more efficient than de novo assembly.
 
 - **Tools**: BWA, Bowtie, STAR, HISAT2
@@ -87,13 +87,13 @@ Allows file path input via the command line.
 ### Processing
 
 **Reverse Complement Calculation:**
-Generates reverse complements for DNA sequences.--
+Generates reverse complements for DNA sequences.__
 **k-mer Generation:**
-Generates all k-mers (substrings of length k) from a DNA sequence.--
+Generates all k-mers (substrings of length k) from a DNA sequence.__
 **De Bruijn Graph Construction:**
-Constructs a de Bruijn graph from the k-mers.--
+Constructs a de Bruijn graph from the k-mers.__
 **Eulerian Cycle Detection:**
-Finds an Eulerian cycle in the graph.--
+Finds an Eulerian cycle in the graph.__
 **DNA Sequence Assembly:**
 Assembles the superstring from the Eulerian cycle.
 
