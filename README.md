@@ -38,7 +38,7 @@ Genome assembly plays a vital role in many fields of biology and medicine, inclu
 
 ---
 
-### Role of Graph Theory in Genome Assembly
+### Role of Graph Theory in De Novo Genome Assembly
 To tackle the assembly problem, computational methods leverage graph theory. This project employs a de Bruijn graph approach, where:
 - Nodes represent \(k-1\) prefixes and suffixes of \(k\)-mers, substrings of DNA of length \(k\).
 - Directed edges connect overlapping \(k\)-mers, capturing the structure of the DNA sequence.
