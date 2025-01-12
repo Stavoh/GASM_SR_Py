@@ -1,7 +1,7 @@
 # Genome Assembly from Short Reads with Python
 
 ## Overview
-This tool assembles a long DNA sequence from short DNA reads produced by sequencing technologies. Using computational methods, it:
+GASM_SR is a tool that assembles a long DNA sequence from short DNA reads produced by sequencing technologies. Using computational methods, it:
 
 - Constructs a **de Bruijn graph** from k-mers of the input DNA fragments.
 - Traverses the graph to find an **Eulerian cycle**, predicting the most probable sequence.
@@ -19,7 +19,7 @@ In bioinformatics, genome assembly refers to aligning and merging fragments from
 
 The problem of genome assembly can be compared to taking many copies of a book, passing each of them through a shredder with a different cutter, and piecing the text of the book back together just by looking at the shredded pieces.
 
-There are two main types of genome assembly, from which we are implementing the first (de novo assembly):
+There are two main types of genome assembly, from which GASM_SR implements the first (de novo assembly):
 
 **1. De Novo Assembly:**  
 De novo assembly is the process of piecing together short reads of DNA into a whole genome without a reference genome.
