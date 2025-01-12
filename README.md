@@ -115,16 +115,16 @@ pip install -r requirements.txt
 ## Usage
 
 ### Running the Program
-1. Prepare your input FASTQ file. Sample files can be found in the current repository.
-2. Run the program from the command line:
+1. Run the program from the command line:
    ```bash
-   python GASM.py <path_to_fastq_file>
+   python GASM.py
    ```
-4. The output file with the reconstructed DNA sequence will appear in the same directory as the input file.
+2. Choose file to process or to unzip.
+3. Save the output file with the reconstructed DNA sequence.
 
 ### Example
 ```bash
-python GASM.py Sample1.fastq
+python GASM.py
 ```
 Output:
 ```
