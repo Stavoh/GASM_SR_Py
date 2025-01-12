@@ -75,13 +75,8 @@ DNA sequence saved to: data/Sample1_Sequence_1672531200.txt
 ## Testing
 
 ### Running Tests
-If test scripts are included:
 ```bash
 pytest
-```
-Or run a specific test script:
-```bash
-python test_genome_assembly.py
 ```
 
 ---
@@ -93,3 +88,6 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+## Mentions
+This tool was created as part of the [WIS Python programming course](https://github.com/szabgab/wis-python-course-2024-11.git)
