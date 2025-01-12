@@ -1,1 +1,1 @@
-This project was created as part of the [WIS Python programming course](https://github.com/szabgab/wis-python-course-2024-11.git)
+This project was created as part of the [WIS Python programming course](https://github.com/szabgab/wis-python-course-2024-11.git) directed by [Gabor Szabo](https://github.com/szabgab) and the tutors [Hadar K.](https://github.com/HadarKlimovski) and [Liron H.](https://github.com/liroh99).
