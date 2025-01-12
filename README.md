@@ -11,8 +11,8 @@ Python will be used to construct a de Bruijn graph and find its Eulerian cycle t
 
 # Genome Assembly from Short Reads with Python
 
-## Project Overview
-This project assembles a long DNA sequence from short DNA reads produced by sequencing technologies. Using computational methods, it:
+## Overview
+This tool assembles a long DNA sequence from short DNA reads produced by sequencing technologies. Using computational methods, it:
 
 - Constructs a **de Bruijn graph** from the input DNA fragments (k-mers).
 - Traverses the graph to find an **Eulerian cycle**, predicting the most probable sequence.
@@ -32,16 +32,15 @@ This tool is ideal for genome assembly tasks in bioinformatics and computational
 
 ---
 
-## Input and Output
-
-### Input
+## Input
 - **FASTQ File**: The input file should contain DNA sequencing reads in the FASTQ format, which includes:
   - Sequence headers.
   - DNA sequences.
-  - Quality scores (ignored in this implementation).
+  - Quality scores.
+  Sample FASTQ files are given in this repository.
 
-### Output
-- **Text File**: The reconstructed DNA sequence is saved as a text file in the same directory as the input FASTQ file. The file name includes a timestamp for uniqueness.
+## Output
+- **Text File**: The reconstructed DNA sequence is saved as a text file in the same directory as the input FASTQ file.
 
 ---
 
@@ -52,19 +51,13 @@ This tool is ideal for genome assembly tasks in bioinformatics and computational
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/your-username/genome-assembly.git
-cd genome-assembly
+git clone https://github.com/Stavoh/GASM_SR_Py.git
+cd GASM_SR_Py
 ```
 
 ### Install Dependencies
-If a `requirements.txt` file is included:
 ```bash
 pip install -r requirements.txt
-```
-
-If not, install the required library manually:
-```bash
-pip install argparse
 ```
 
 ---
@@ -72,20 +65,20 @@ pip install argparse
 ## Usage
 
 ### Running the Program
-1. Prepare your input FASTQ file.
+1. Prepare your input FASTQ file. Sample files can be found in the current repository.
 2. Run the program from the command line:
    ```bash
-   python genome_assembly.py <path_to_fastq_file>
+   python GASM.py <path_to_fastq_file>
    ```
-3. The output file with the reconstructed DNA sequence will appear in the same directory as the input file.
+4. The output file with the reconstructed DNA sequence will appear in the same directory as the input file.
 
 ### Example
 ```bash
-python genome_assembly.py data/sample.fastq
+python GASM.py Sample1.fastq
 ```
 Output:
 ```
-DNA sequence saved to: data/sample_Sequence_1672531200.txt
+DNA sequence saved to: data/Sample1_Sequence_1672531200.txt
 ```
 
 ---
