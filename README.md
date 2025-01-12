@@ -59,7 +59,7 @@ The task then reduces to finding an Eulerian cycle—a path that visits every ed
 
 ### Input
 
-**FASTQ File Parsing:**  
+- **FASTQ File Parsing:**  
 Reads DNA sequences from a FASTQ file, which includes:
   - Sequence headers.
   - DNA sequences.
@@ -67,29 +67,29 @@ Reads DNA sequences from a FASTQ file, which includes:
   
 *_Sample FASTQ files are given in this repository._
 
-**Command-Line Input:**  
+- **Command-Line Input:**  
 Allows file path input via the command line.
 
 ### Processing
 
-**Reverse Complement Calculation:**  
+- **Reverse Complement Calculation:**  
 Generates reverse complements for DNA sequences.  
 
-**k-mer Generation:**  
+- **k-mer Generation:**  
 Generates all k-mers (substrings of length k) from the short DNA sequences.  
 
-**De Bruijn Graph Construction:**  
+- **De Bruijn Graph Construction:**  
 Constructs a de Bruijn graph from the k-mers.  
 
-**Eulerian Cycle Detection:**  
+- **Eulerian Cycle Detection:**  
 Finds an Eulerian cycle in the graph.  
 
-**DNA Sequence Assembly:**  
+- **DNA Sequence Assembly:**  
 Assembles the superstring from the Eulerian cycle.
 
 ### Output
 
-**Text File:**  
+- **Text File:**  
 The reconstructed DNA sequence is saved as a text file in the same directory as the input FASTQ file.
 
 ---
