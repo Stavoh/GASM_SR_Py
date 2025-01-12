@@ -22,7 +22,7 @@ The problem of genome assembly can be compared to taking many copies of a book, 
 There are two main types of genome assembly, from which we are implementing the first (de novo assembly):
 
 **1. De Novo Assembly:**  
-De novo assembly is the process of assembling a genome without a reference genome. It involves piecing together short DNA reads into a long superstring without a reference genome.
+De novo assembly is the process of assembling a genome without a reference genome.
 
 **2. Reference-Based Assembly:**  
 Reference-based assembly is the process of mapping short reads to an existing reference genome.
