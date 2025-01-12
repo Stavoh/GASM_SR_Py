@@ -53,7 +53,7 @@ The task then reduces to finding an Eulerian cycle—a path that visits every ed
 Reads DNA sequences from a FASTQ file, which includes:
   - Sequence headers.
   - DNA sequences.
-  - Quality scores.
+  - Quality scores.  
 *_Sample FASTQ files are given in this repository._
 
 **Command-Line Input:**
