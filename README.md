@@ -1,6 +1,10 @@
 # Genome Assembly from Short Reads with Python
 
+---
+
+
 ## Overview
+DNA sequencing involves cutting a long string of DNA and reading it in small pieces due to biological limitations. This results in many different short DNA reads.
 GASM is a tool that assembles a long DNA sequence from short DNA reads produced by sequencing technologies. Using computational methods, it:
 
 - Constructs a **de Bruijn graph** from k-mers of the input DNA fragments.
@@ -8,6 +12,12 @@ GASM is a tool that assembles a long DNA sequence from short DNA reads produced 
 - Outputs the reconstructed DNA sequence as a text file.
 
 This tool is ideal for genome assembly tasks in bioinformatics and computational biology.
+
+### Layout
+1. DNA sequencing data in the form of a FASTQ file will be used as an input.  
+2. The most probable sequence will be computed by the program.  
+3. The predicted sequence will be given in the form of a text file as an output.  
+
 
 ---
 
