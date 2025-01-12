@@ -87,14 +87,13 @@ Allows file path input via the command line.
 ### Processing
 
 **Reverse Complement Calculation:**
-Generates reverse complements for DNA sequences.
+Generates reverse complements for DNA sequences.--
 **k-mer Generation:**
-Generates all k-mers (substrings of length 
-k) from a DNA sequence.
+Generates all k-mers (substrings of length k) from a DNA sequence.--
 **De Bruijn Graph Construction:**
-Constructs a de Bruijn graph from the k-mers.
+Constructs a de Bruijn graph from the k-mers.--
 **Eulerian Cycle Detection:**
-Finds an Eulerian cycle in the graph.
+Finds an Eulerian cycle in the graph.--
 **DNA Sequence Assembly:**
 Assembles the superstring from the Eulerian cycle.
 
