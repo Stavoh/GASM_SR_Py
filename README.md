@@ -4,7 +4,7 @@
 
 
 ## Overview
-DNA sequencing involves cutting a long string of DNA and reading it in small pieces due to biological limitations. This results in many different short DNA reads.
+DNA sequencing involves cutting a long string of DNA and reading it in small pieces due to biological limitations. This results in many different short DNA reads.  
 GASM is a tool that assembles a long DNA sequence from short DNA reads produced by sequencing technologies. Using computational methods, it:
 
 - Constructs a **de Bruijn graph** from k-mers of the input DNA fragments.
