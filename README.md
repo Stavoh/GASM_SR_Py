@@ -67,9 +67,6 @@ Reads DNA sequences from a FASTQ file, which includes:
 
   *_Sample FASTQ files are given in this repository._
 
-- **Command-Line Input:**  
-Allows file path input via the command line.
-
 ### Processing
 
 - **Reverse Complement Calculation:**  
@@ -90,7 +87,7 @@ Assembles the superstring from the Eulerian cycle.
 ### Output
 
 - **Text File:**  
-The reconstructed DNA sequence is saved as a text file in the same directory as the input FASTQ file.
+The reconstructed DNA sequence can be saved as a text file.
 
 ---
 
@@ -122,13 +119,10 @@ pip install -r requirements.txt
 2. Choose file to process or to unzip.
 3. Save the output file with the reconstructed DNA sequence.
 
-### Example
-```bash
-python GASM.py
+### Output Example
+
 ```
-Output:
-```
-DNA sequence saved to: data/Sample1_Sequence_1672531200.txt
+DNA sequence saved to: data/Sample1_Sequence.txt
 ```
 
 ---
