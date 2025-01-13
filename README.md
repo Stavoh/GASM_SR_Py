@@ -120,10 +120,7 @@ pip install -r requirements.txt
 3. Save the output file with the reconstructed DNA sequence.
 
 ### Output Example
-
-```
-DNA sequence saved to: data/Sample1_Sequence.txt
-```
+<img width="659" alt="Screenshot 2025-01-13 at 10 25 01" src="https://github.com/user-attachments/assets/0c238aa2-b009-45e8-b5b0-d6b8f7342b7e" />
 
 ---
 
